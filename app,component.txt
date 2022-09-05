@@ -1,0 +1,8 @@
+section9: services
+====================================================================
+
+107.
+we can create a service class and implement our methods there.
+but calling class manually isn't the correct way.
+
+108.
