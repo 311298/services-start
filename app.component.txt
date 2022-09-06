@@ -10,5 +10,24 @@ in constructor of component -> private variable : serviceClassName
 in @component -> providers array [serviceClassName]
 
 109. && 110. && 111.
+code is written and saved in text file for better understanding.
+I have re-created the project again to understand thing clearly rather than copy pasting.
+go to ->
 
+112.
+for injecting serice inside the service we need to add the meta data to serice class called @Injectible.
+
+113.
+we can do the communication between the components and emit events form one component another component without use of output().
+define it inside the serivce.
+emit the data which we want to receive in another component.
+subscribe the event variable inside the component.
+
+14.
+for application wide service injection we can use
+    @Injectable({providedIn: 'root'})
+    export class MyService { ... }
+
+
+end
 
